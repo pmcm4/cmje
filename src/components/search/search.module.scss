@@ -1,0 +1,24 @@
+.root {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  gap: 3px;
+}
+.search {
+  font-size: 15px;
+  height: 30px;
+  width: 250px;
+  background-color: white;
+  font-weight: 200;
+  color: #11140d;
+  text-align: start;
+  direction: ltr;
+  font-style: normal;
+}
+
+.searchBtn {
+  height: 35px;
+  width: 60px;
+  background-color: #11140d;
+  color: white;
+}

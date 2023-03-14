@@ -1,0 +1,72 @@
+.root {
+  align-content: start;
+  justify-content: start;
+  justify-items: start;
+  align-items: start;
+  flex-direction: row;
+  display: flex;
+  column-gap: 5px;
+  padding: 3px;
+  width: 310px;
+}
+.prod_img {
+  width: 120px;
+}
+.item_name {
+  width: 100px;
+  min-width: 100px;
+  max-width: 120px;
+}
+.stock {
+  font-size: 13px;
+}
+.text_holder {
+  display: flex;
+  flex-direction: column;
+  color: #11140d;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: start;
+}
+.brand_name {
+  font-size: 13px;
+}
+.addBtn {
+  align-items: end;
+  flex-direction: row;
+  height: 30px;
+  width: 50px;
+}
+.teim_btns {
+  width: 100px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 5px 2px;
+}
+.qty_slider {
+  height: 30px;
+  min-width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #11140d;
+  border-radius: 12px;
+}
+.qty_slider span {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.qty_slider span.num {
+  font-size: 14px;
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+}
+.price {
+  font-size: 13px;
+}

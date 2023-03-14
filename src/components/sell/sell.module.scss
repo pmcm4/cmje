@@ -1,0 +1,65 @@
+.root {
+  width: 100vh;
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #b7ab85;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  align-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+.select_items {
+  width: 98%;
+  height: 98%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+}
+.invoice {
+  width: 98%;
+  height: 98%;
+}
+.search {
+  font-size: 15px;
+  height: 30px;
+  width: 250px;
+  background-color: white;
+  font-weight: 200;
+  color: #11140d;
+  text-align: start;
+  direction: ltr;
+  font-style: normal;
+}
+
+.searchBtn {
+  height: 35px;
+  width: 60px;
+  background-color: #11140d;
+  color: white;
+}
+.add_misc {
+  width: 326px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.misc_num {
+  width: 200px;
+  height: 20px;
+}
+.miscBtn {
+  height: 25px;
+  width: 60px;
+}
+.misciTitle {
+  color: #11140d;
+  font-weight: 700;
+  font-size: 20px;
+}

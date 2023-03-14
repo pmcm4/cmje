@@ -1,0 +1,13 @@
+.root {
+  flex-direction: column;
+  background-color: #11140d;
+  height: 50px;
+  align-items: center;
+}
+.text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 12px;
+}

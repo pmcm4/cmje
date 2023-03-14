@@ -1,0 +1,36 @@
+.root {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+}
+.sell {
+  background-color: #ffffff;
+  width: 300px;
+  box-shadow: 5px 9px 5px -1px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 5px 9px 5px -1px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 5px 9px 5px -1px rgba(0, 0, 0, 0.38);
+  height: 150px;
+}
+.stock {
+  background-color: #ffffff;
+  width: 300px;
+  height: 150px;
+  box-shadow: 5px 9px 5px -1px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 5px 9px 5px -1px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 5px 9px 5px -1px rgba(0, 0, 0, 0.38);
+}
+.sellText {
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  margin: 5px;
+}
+.stockText {
+  color: #000000;
+  font-weight: 700;
+  display: flex;
+  margin: 5px;
+}

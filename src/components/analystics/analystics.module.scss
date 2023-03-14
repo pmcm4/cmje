@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.card {
+  background-color: white;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vh;
+  box-shadow: 5px 9px 5px -1px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 5px 9px 5px -1px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 5px 9px 5px -1px rgba(0, 0, 0, 0.38);
+  height: 45vh;
+}
+.analytics_title {
+  color: #11140d;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  padding: 2px;
+  flex-direction: column;
+  align-items: start;
+  justify-items: start;
+  align-content: start;
+  justify-content: start;
+}
+.title_analytics {
+  color: #11140d;
+  font-weight: 700;
+  font-size: 20px;
+  align-items: start;
+  display: flex;
+  margin: 5px;
+}
